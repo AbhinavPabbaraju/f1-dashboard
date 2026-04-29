@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abhinav Pabbaraju's Pit Wall · Your Personal F1 2026 Dashboard</title>
+
+<!-- KEEP ORIGINAL ATTRIBUTION BLOCK INTACT -->
+<meta name="description" content="A broadcaster-quality personal F1 2026 dashboard — live countdown to the next Grand Prix." />
+<meta name="author" content="Anirudh Goel" />
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Inter&family=JetBrains+Mono&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --carbon:#0a0a0a;
+  --paper:#f2ece0;
+  --ink:#0a0a0a;
+
+  /* 🔵 RED BULL THEME */
+  --racing:#1e3a8a;         /* deep RB blue */
+  --racing-hot:#3b82f6;     /* bright blue */
+  --racing-deep:#0f172a;    /* dark navy */
+  --accent-red:#e10600;     /* RB red accent */
+
+  --gold:#d4a017;
+}
+
+body {
+  background:var(--paper);
+  font-family:'Inter',sans-serif;
+  margin:0;
+}
+
+/* HERO */
+.hero {
+  padding:60px 30px;
+}
+
+.hero-title {
+  font-family:'Playfair Display',serif;
+  font-size:80px;
+  line-height:1;
+}
+
+.hero-title .line2 {
+  color:var(--racing);
+}
+
+.live-badge {
+  background:var(--racing);
+  color:#fff;
+  padding:6px 12px;
+  display:inline-block;
+}
+
+/* FAVORITE BAR */
+.fav-bar {
+  margin-top:15px;
+  font-family:'JetBrains Mono',monospace;
+  font-size:12px;
+  letter-spacing:0.15em;
+  color:var(--racing);
+}
+
+/* CARD */
+.card {
+  background:var(--carbon);
+  color:white;
+  padding:30px;
+  border-top:5px solid var(--racing);
+}
+
+/* SMALL ACCENT */
+.red-accent {
+  color:var(--accent-red);
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+  <div style="display:flex;justify-content:space-between;">
+    <div>Personal Edition · F1 2026</div>
+    <div>Good morning, Abhinav Pabbaraju</div>
+  </div>
+
+  <h1 class="hero-title">
+    <span>Abhinav Pabbaraju's</span><br>
+    <span class="line2">Pit Wall.</span>
+  </h1>
+
+  <div class="live-badge">Live Edition</div>
+
+  <!-- 🔥 PERSONALIZATION -->
+  <div class="fav-bar">
+    Favorite Driver: <strong>Max Verstappen</strong> · 
+    Team: <strong>Red Bull Racing</strong>
+  </div>
+
+</section>
+
+<section class="card">
+  <h2>Next Race</h2>
+  <h1>Miami Grand Prix</h1>
+  <p>Lights out soon...</p>
+</section>
+
+</body>
+</html>
